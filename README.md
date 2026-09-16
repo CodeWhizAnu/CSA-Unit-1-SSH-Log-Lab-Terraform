@@ -26,10 +26,6 @@ sudo journalctl -u sshd | grep -i "failed"
 sudo journalctl -u sshd --since "24 hours ago"
 ```
 
-## Screenshot
-
-Take your screenshot of the AWS Console (Instances page showing "Running",
-and/or the terminal output of the `journalctl` command above).
 
 ## Destroy when done
 
